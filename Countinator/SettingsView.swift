@@ -24,5 +24,8 @@ struct SettingsView: View {
 }
 
 #Preview {
+    @Previewable @State var capacity: Int = 10
+    @Previewable @State var emptyColor: Color = .blue
+    @Previewable @State var fullColor: Color = .purple
     SettingsView()
 }
